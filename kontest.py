@@ -10,7 +10,7 @@ import sqlite3
 contact = sqlite3.connect('dt.db')
 cursor = contact.cursor()
 
-api = '7126517163:AAFWequQRSnzVAFPwq0M5vMTSBnM1H3EveI'
+api = ''
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
